@@ -1,0 +1,147 @@
+.background { background-color: white;}
+
+h2, h1 { font-size: 2em!important; line-height: 1!important; font-family: 'Josefin Slab', serif!important;}
+h3 {  font-size: 1em;font-family: 'Josefin Slab', serif;}
+p { font-size: 1.5em!important; font-family: 'Josefin Slab', serif; }
+
+td { font-size: small; font-family: 'Josefin Slab', serif; }
+
+li { font-size: 90%; font-family: 'Josefin Slab', serif; }
+body{
+
+}
+.grid-container
+	{	display: grid;
+		grid-template-columns: auto auto ;
+		background-color: ;
+		padding: auto;
+
+		}
+.grid-item
+		{
+		background-color: rgba(249, 231, 189, 1);
+		border: 0px, 1px solid rgba(0, 0, 0, 0.8);
+
+
+		text-align: center;}
+
+
+#timerbox {
+  background-color: black;
+  text-align:center;
+	color: white;
+	font-size: 30px;
+	visibility: hidden;
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	right: 10px;
+	bottom: 10px;
+	z-index: 999;
+
+}
+button{
+	background-color: #0E4C73;
+	color: #D7D0D9!important;
+	font-family: 'Josefin Slab', serif!important;
+
+}
+
+.container{
+
+     float: left;
+     width: 60%;
+     margin-left: 0%;
+     padding: 20px;
+     background: #0E4C73;
+     box-sizing: border-box;
+		 -moz-box-sizing:border-box;
+
+}
+
+.container h2{
+	text-decoration: underline;
+	color:#D7D0D9;
+}
+.container2{
+		float: left;
+     width: 30%;
+     margin-left: 0%;
+		 margin-right: 1%;
+     padding: 20px;
+     background: #0E4C73;
+     box-sizing: border-box;
+		 -moz-box-sizing:border-box;
+}
+.container2 h2, h3, p{
+	color:black;
+}
+.step-container{
+    left:60%;
+		padding-left: 5%;
+		padding-top: 5%;
+		padding-right: 5%;
+    float: none;
+		margin: 0em;
+    background-color:rgba(215, 208, 217, 0.8);
+    color: #BF045B;
+		z-index: 100;
+		right:0;
+		bottom: 0;
+		top: 0;
+		position: absolute;
+		border-left: 5px solid #73022C;
+
+}
+.text-intro{
+	color:#0378A6!important;
+	font-family: 'Josefin Slab', serif;
+}
+
+img{
+	max-width: 80%;
+	height:auto;
+
+}
+
+#content{
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+	background-color: #0E4C73;
+}
+
+.logo{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 100vh;
+	position: relative;
+	background-color: #BF045B;
+	border-bottom: 10px solid #73022C;
+
+}
+.logo h1{
+	margin-top: 0px;
+	padding-top: 5%;
+	color: #73022C;
+	font-size: 5em;
+	text-shadow: 0px -1px 0px #555555,
+                 0px 1px 0px #EEEEEE;
+}
+.moveleft {
+  transition: all 3s;
+  opacity: 0;
+}
+
+.left {
+  transform: translate(50px, 0);
+  opacity: 1;
+}
+.fadescroll {
+  transition: all 2s;
+  opacity: 0;
+}
+
+.fade {
+  opacity: 1;
+}
